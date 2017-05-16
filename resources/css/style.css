@@ -1,18 +1,31 @@
 html {
   font-family: Helvetica; sans-serif;
+  color: gray;
 }
 
 body {
   text-align: center;
 }
 
-.image {
 
+.image {
+  background-image: url(./resources/images/the-flatiron-building.png);
 }
 
-header {
+h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 14px;
 }
